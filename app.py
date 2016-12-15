@@ -8,7 +8,7 @@ app = Flask(__name__, static_url_path='')
 @app.route('/')
 def hello_world():
     return """
-    <h1>Hello OpenShift - this is KH </h1>
+    <h1>Hello OpenShift World - this is KH </h1>
 
     <p>From Sam at %(now)s.</p>
 
